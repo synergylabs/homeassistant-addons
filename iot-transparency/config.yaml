@@ -1,12 +1,12 @@
 name: "IoT Transparency"
-version: 0.6.1
+version: 0.7.0
 
 slug: "iot-transparency"
 description: "Learn about your IoT devices."
 url: "https://github.com/synergylabs/iot-transparency"
 panel_icon: "mdi:lightbulb-question"
 
-image: "ghcr.io/synergylabs/image-{arch}-iot-transparency"
+image: "ghcr.io/synergylabs/iot-transparency-{arch}"
 arch:
   - aarch64
   - amd64
