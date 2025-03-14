@@ -1,0 +1,26 @@
+name: "IoT Transparency"
+version: 0.6.1
+
+slug: "iot-transparency"
+description: "Learn about your IoT devices."
+url: "https://github.com/synergylabs/iot-transparency"
+panel_icon: "mdi:lightbulb-question"
+
+image: "ghcr.io/synergylabs/image-{arch}-iot-transparency"
+arch:
+  - aarch64
+  - amd64
+init: false
+ingress: true
+ingress_port: 8099
+host_network: true
+privileged:
+  - NET_ADMIN
+  - NET_RAW
+homeassistant_api: true
+options:
+  allow_arp_spoofing: true
+  erase_database_on_start: true
+schema:
+  allow_arp_spoofing: bool
+  erase_database_on_start: bool
