@@ -1,5 +1,5 @@
 name: "IoT Transparency"
-version: 0.24.0
+version: 0.27.0
 
 slug: "iot-transparency"
 description: "Learn about your IoT devices."
@@ -20,7 +20,7 @@ privileged:
 homeassistant_api: true
 options:
   allow_arp_spoofing: true
-  erase_database_on_start: true
+  erase_database_on_start: false
 schema:
   allow_arp_spoofing: bool
   erase_database_on_start: bool
