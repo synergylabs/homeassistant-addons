@@ -1,8 +1,8 @@
 name: "IoT Transparency"
-version: 0.32.0
+version: 0.33.0
 
 slug: "iot-transparency"
-description: "Learn about your IoT devices."
+description: "Add-on for CMU research study"
 url: "https://github.com/synergylabs/iot-transparency"
 panel_icon: "mdi:lightbulb-question"
 
