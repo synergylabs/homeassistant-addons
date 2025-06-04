@@ -1,0 +1,13 @@
+configuration:
+  debug_mode:
+    name: Debug mode
+    description: "Enable additional logging and information display."
+  allow_arp_spoofing:
+    name: Allow network monitoring
+    description: "Allow network monitoring (ARP spoofing) to be enabled. Only disable this if you are encountering issues that prevent you from starting the add-on."
+  # Removing an option is difficult per
+  # https://developers.home-assistant.io/docs/add-ons/configuration#options--schema
+  # so we leave this option around as an unused option
+  erase_database_on_start:
+    name: Unused option
+    description: "This option is not used."
