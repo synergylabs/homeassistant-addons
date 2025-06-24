@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0b3 - 2025-06-24
+
+### Changed
+
+- Bug fixes
+
 ## 1.0.0b2 - 2025-06-24
 
 ### Added
