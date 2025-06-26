@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0b4 - 2025-06-26
+
+### Changed
+
+- Fixed edits to device information not properly saving
+- Fixed some company names displaying as None
+
 ## 1.0.0b3 - 2025-06-24
 
 ### Changed
