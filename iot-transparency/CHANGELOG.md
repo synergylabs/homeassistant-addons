@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.0b5 - 2025-06-26
+
+### Added
+
+- Added dialog with more details about companies in network data
+
+### Changed
+
+- Assorted string updates
+- Assorted style updates
+- Fixed loss of toggle state when navigating between network monitoring and device detail screens
+
 ## 1.0.0b4 - 2025-06-26
 
 ### Changed
