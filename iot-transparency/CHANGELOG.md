@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0b6 - 2025-06-27
+
+### Changed
+
+- Ensure all setup steps are completed before user can view full dashboard
+- Switched meeting scheduling tool to Calendly
+
 ## 1.0.0b5 - 2025-06-26
 
 ### Added
