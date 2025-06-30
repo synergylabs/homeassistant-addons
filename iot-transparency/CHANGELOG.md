@@ -8,6 +8,10 @@
 - Improve scanning speed by running network scans in parallel
 - Require that user enable network monitoring for at least 3 devices to complete setup
 
+### Known issues
+
+- Banner for Error 101 shows even if all settings are correct
+
 ## 1.0.0b6 - 2025-06-27
 
 ### Changed
