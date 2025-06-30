@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0b7 - 2025-06-30
+
+### Changed
+
+- Check that add-on settings are set correctly and offer in the add-on to fix them
+- Improve scanning speed by running network scans in parallel
+- Require that user enable network monitoring for at least 3 devices to complete setup
+
 ## 1.0.0b6 - 2025-06-27
 
 ### Changed
