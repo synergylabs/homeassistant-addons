@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0b8 - 2025-07-01
+
+### Changed
+
+- Add additional error handling in Home Assistant scanner
+- Limit log size
+- Add additional status messages for log upload
+
 ## 1.0.0b7 - 2025-06-30
 
 ### Changed
