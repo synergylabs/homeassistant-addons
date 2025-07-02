@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0b9 - 2025-07-02
+
+### Changed
+
+- Improve page load times and add more loading indicators
+- Reduce race conditions in database writes
+
 ## 1.0.0b8 - 2025-07-01
 
 ### Changed
