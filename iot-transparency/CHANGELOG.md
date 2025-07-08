@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.0b11 - 2025-07-08
+
+### Changed
+
+- Fix network data table not loading when expected
+
+## 1.0.0b10 - 2025-07-07
+
+### Changed
+
+- Fix bugs resulting in traffic not being counted
+- UI improvements
+
 ## 1.0.0b9 - 2025-07-02
 
 ### Changed
