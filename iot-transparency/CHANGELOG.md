@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0b12 - 2025-07-18
+
+### Changed
+
+- Assorted UI improvements
+- Reduce race conditions and errors
+- Handle more types of DNS traffic
+
 ## 1.0.0b11 - 2025-07-08
 
 ### Changed
