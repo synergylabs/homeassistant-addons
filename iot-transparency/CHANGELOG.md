@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0b14 - 2025-07-21
+
+### Changed
+
+- Add additional privacy policies
+- Fix network data table not loading on some devices
+
 ## 1.0.0b13 - 2025-07-21
 
 ### Changed
