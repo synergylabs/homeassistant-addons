@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0b13 - 2025-07-21
+
+### Changed
+
+- Update privacy policies
+- Fix network data table not showing
+
 ## 1.0.0b12 - 2025-07-18
 
 ### Changed
