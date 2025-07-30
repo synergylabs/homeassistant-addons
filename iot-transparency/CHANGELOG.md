@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.0b16 - 2025-07-30
+
+### Added
+
+- Added details about device sensors and privacy settings for select manufacturers
+
+### Changed
+
+- Add additional metrics
+- Assorted other bug fixes
+
 ## 1.0.0b14 - 2025-07-21
 
 ### Changed
