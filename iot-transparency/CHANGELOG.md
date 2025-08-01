@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.0b17 - 2025-08-01
+
+### Added
+
+- Automatically detect connectivity issues caused by ARP spoofing, and disable ARP spoofing if so
+
+### Changed
+
+- Fix Nest devices not detecting as IoT devices
+- Fix crash when loading device details page
+- Assorted other bug fixes
+
 ## 1.0.0b16 - 2025-07-30
 
 ### Added
