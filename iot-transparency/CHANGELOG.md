@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0b20 - 2025-08-05
+
+### Changed
+
+- Fix network data table filter
+- Add reload button to network data table
+
 ## 1.0.0b19 - 2025-08-05
 
 ### Changed
