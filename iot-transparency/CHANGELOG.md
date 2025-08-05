@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0b18 - 2025-08-05
+
+### Added
+
+- Added additional logging to debug network configuration issues
+
 ## 1.0.0b17 - 2025-08-01
 
 ### Added
