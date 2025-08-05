@@ -1,10 +1,20 @@
 # Changelog
 
+## 1.0.0b19 - 2025-08-05
+
+### Changed
+
+- Small UI changes
+
 ## 1.0.0b18 - 2025-08-05
 
 ### Added
 
 - Added additional logging to debug network configuration issues
+
+### Changed
+
+- Adjusted thresholds for ARP spoofing breakage detection
 
 ## 1.0.0b17 - 2025-08-01
 
