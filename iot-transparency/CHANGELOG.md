@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0b21 - 2025-08-05
+
+### Changed
+
+- Check for minimum Home Assistant version
+- Speculative fix for database reads failing
+
 ## 1.0.0b20 - 2025-08-05
 
 ### Changed
