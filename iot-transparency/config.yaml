@@ -17,6 +17,7 @@ host_network: true
 privileged:
   - NET_ADMIN
   - NET_RAW
+homeassistant: "2025.5"
 homeassistant_api: true
 options:
   debug_mode: false
