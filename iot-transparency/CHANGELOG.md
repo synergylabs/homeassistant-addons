@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0b22 - 2025-08-26
+
+### Changed
+
+- Fix network toggle not working on second click
+- Fix back button on device details page bringing user to incorrect page
+- Re-ARP devices when disabling network monitoring
+- Improve device card design
+
 ## 1.0.0b21 - 2025-08-05
 
 ### Changed
