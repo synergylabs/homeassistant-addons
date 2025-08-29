@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.0rc1 - 2025-08-29
+
+Release candidate for study.
+
+### Changed
+
+- Added additional sensor data and privacy setting summaries
+- Fix bugs related to metrics collection
+- Improve device identification for a few manufacturers
+
 ## 1.0.0b22 - 2025-08-26
 
 ### Changed
