@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0rc3 - 2025-09-01
+
+### Changed
+
+- Minor string and display updates
+- Add additional privacy policies
+
 ## 1.0.0rc1 - 2025-08-29
 
 Release candidate for study.
