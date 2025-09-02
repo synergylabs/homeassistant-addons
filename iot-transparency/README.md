@@ -1,6 +1,6 @@
 # IoT Transparency
 
-Add-on for IoT Transparency research study.
+Add-on for IoT Transparency research study from Carnegie Mellon University.
 
 ## Setup Instructions
 
