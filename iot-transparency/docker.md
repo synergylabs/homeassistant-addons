@@ -2,7 +2,7 @@
 
 If you are setting up a Docker installation of IoT Transparency, there are a few additional steps to enable packet forwarding and set up the integration with Home Assistant.
 
-## Configure packet forwarding
+## Step 1: Configure packet forwarding
 
 IoT Transparency intercepts traffic going to and from your IoT devices to allow it to display the traffic to you.
 To do so, your system must be configured to allow packet forwarding/routing.
@@ -12,14 +12,14 @@ To do so, your system must be configured to allow packet forwarding/routing.
   - UFW: `sudo ufw default allow FORWARD`
   - iptables: `sudo iptables -P FORWARD ACCEPT`
 
-## Create Home Assistant API token
+## Step 2: Create Home Assistant API token
 
 IoT Transparency uses the Home Assistant API to access a list of devices in your home.
 
 1. Create an API token by going to Home Assistant -> User profile (bottom left) -> Security -> Long-lived access tokens -> Create token.
 2. Save this token for the next step.
 
-## Configure and start container
+## Step 3: Configure and start container
 
 1. Download [docker-compose.yml](docker-compose.yml) and [iot-transparency.env](iot-transparency.env) and place them in the same directory on your server
 2. If running on an ARM machine, change `ghcr.io/synergylabs/iot-transparency-amd64` to `ghcr.io/synergylabs/iot-transparency-arm64` in `docker-compose.yml`
@@ -27,7 +27,7 @@ IoT Transparency uses the Home Assistant API to access a list of devices in your
 4. Update the `SUPERVISOR_TOKEN` field of the `iot-transparency.env` file with the token you just generated
 5. Then, you can start the Docker container using: `docker compose up`
 
-## Open IoT Transparency
+## Step 4: Open IoT Transparency
 
 IoT Transparency can be accessed at `http://[docker_host]:8099`.
 
