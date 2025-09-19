@@ -49,7 +49,7 @@ Then, you can start the Docker container using:
 $ docker compose up
 ```
 
-# Open IoT Transparency
+## Open IoT Transparency
 
 IoT Transparency can be accessed at `http://[docker_host]:8099`.
 
