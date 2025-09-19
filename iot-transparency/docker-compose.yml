@@ -1,0 +1,18 @@
+version: "3"
+name: iot-transparency
+
+services:
+  iot-transparency:
+    image: "ghcr.io/synergylabs/iot-transparency-amd64" # change to arm64 if appropriate
+    network_mode: "host"
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    volumes:
+      - "data:/data"
+    environment:
+      ALLOW_EXTERNAL_CONNECTIONS: true
+    env_file: "iot-transparency.env" # change as appropriate
+
+volumes:
+  data:
