@@ -7,34 +7,17 @@ If you are setting up a Docker installation of IoT Transparency, there are a few
 IoT Transparency intercepts traffic going to and from your IoT devices to allow it to display the traffic to you.
 To do so, your system must be configured to allow packet forwarding/routing.
 
-Enable IP forwarding using:
-
-```
-sudo sysctl -w net.ipv4.ip_forward=1
-```
-
-Additionally, your firewall must be configured to allow forwarding.
-Some sample configurations are below:
-
-UFW:
-
-```
-sudo ufw default allow FORWARD
-```
-
-iptables:
-
-```
-sudo iptables -P FORWARD ACCEPT
-```
+1. Enable IP forwarding using: `sudo sysctl -w net.ipv4.ip_forward=1`
+2. Additionally, your firewall must be configured to allow forwarding. Some sample configurations are below:
+  - UFW: `sudo ufw default allow FORWARD`
+  - iptables: `sudo iptables -P FORWARD ACCEPT`
 
 ## Create Home Assistant API token
 
 IoT Transparency uses the Home Assistant API to access a list of devices in your home.
 
-Create an API token by going to Home Assistant -> User profile (bottom left) -> Security -> Long-lived access tokens -> Create token.
-
-Save this token for the next step.
+1. Create an API token by going to Home Assistant -> User profile (bottom left) -> Security -> Long-lived access tokens -> Create token.
+2. Save this token for the next step.
 
 ## Configure and start container
 
@@ -42,16 +25,13 @@ Save this token for the next step.
 2. If running on an ARM machine, change `ghcr.io/synergylabs/iot-transparency-amd64` to `ghcr.io/synergylabs/iot-transparency-arm64` in `docker-compose.yml`
 3. Update the `HA_URL` field of the `iot-transparency.env` file with the correct domain name and port for your Home Assistant server
 4. Update the `SUPERVISOR_TOKEN` field of the `iot-transparency.env` file with the token you just generated
-
-Then, you can start the Docker container using:
-
-```
-$ docker compose up
-```
+5. Then, you can start the Docker container using: `docker compose up`
 
 ## Open IoT Transparency
 
 IoT Transparency can be accessed at `http://[docker_host]:8099`.
+
+When prompted, enter the activation code sent to you over email.
 
 ## Help
 
